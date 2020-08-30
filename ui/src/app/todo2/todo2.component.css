@@ -1,0 +1,27 @@
+table {
+    width: 100%;
+  }
+
+  table, th , td {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 15px;
+  }
+  
+  table tr:nth-child(odd) {
+    background-color: black;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: rgb(54, 54, 56);
+  }
+  .inputBox{
+    height: 25px;
+    width: 80px;
+  }
+
+  .inputButton{
+    margin-left: 10px;
+    height: 30px;
+    width: 60px;
+  }
